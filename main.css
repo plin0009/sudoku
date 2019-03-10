@@ -1,0 +1,44 @@
+html, body {
+    margin: 0%;
+}
+#grid {
+    background-color: #efe;
+    width: 90vmin;
+    height: 90vmin;
+    position: absolute;
+    left: 5vmin;
+    top: 5vmin;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+}
+tr {
+    width: 5%;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 5vmin;
+    color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+td[selected] {
+    background-color: #fff;
+    opacity: 1;
+}
+td[filled] {
+    color: #000;
+    opacity: 1;
+}
+td[solved] {
+    color: #0A0;
+    opacity: 1;
+}
