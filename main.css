@@ -1,13 +1,12 @@
 html, body {
-    margin: 0%;
+    margin: 0;
+    text-align: center;
 }
 #grid {
     background-color: #efe;
-    width: 90vmin;
-    height: 90vmin;
-    position: absolute;
-    left: 5vmin;
-    top: 5vmin;
+    width: 80vmin;
+    height: 80vmin;
+    margin: 5vmin auto;
 }
 
 table {
